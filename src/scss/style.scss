@@ -1,8 +1,9 @@
 // Main Sass File
 $bg-color: #333;
 $font-color: #fff;
-$primry-color: #008ed6;
+$primary-color: #008ed6;
 $dark-overlay: rgba(0, 0, 0, 0.7);
+$icon-size: 30px;
 
 body {
   background: $bg-color;
@@ -10,7 +11,7 @@ body {
 }
 
 .navbar {
-  border-bottom: $primry-color 3px solid;
+  border-bottom: $primary-color 3px solid;
   opacity: 0.8;
 }
 
@@ -35,5 +36,30 @@ body {
 
   .card-form {
     opacity: 0.8;
+  }
+  .fa {
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+#explore-section {
+  .fa {
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+#create-section {
+  .fa {
+    color: $primary-color;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
   }
 }
